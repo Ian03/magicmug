@@ -1221,7 +1221,7 @@
           <div class="form-footer">
             <button class="btn" type="submit">Enviar pelo WhatsApp</button>
             <span class="form-note">
-              Configure o número oficial no final do arquivo HTML.
+              Você será direcionado ao nosso WhatsApp com o pedido já preenchido.
             </span>
           </div>
 
@@ -1272,9 +1272,8 @@
         `Ideia: ${data.get("details")}`
       ].join("\n");
 
-      // Coloque aqui o WhatsApp oficial com DDI e DDD, somente números.
-      // Exemplo: const whatsappNumber = "5575999999999";
-      const whatsappNumber = "";
+      // WhatsApp oficial com DDI (55) + DDD (75) + número, somente dígitos.
+      const whatsappNumber = "5575991188151";
 
       if (whatsappNumber) {
         window.open(
